@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="OpenWhatsapp.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Grid RowDefinitions="100,*,Auto">
+        <Entry
+            x:Name="numeroTelefone"
+            Margin="25,35,25,20"
+            Keyboard="Numeric"
+            Placeholder="Informe o numero com DDD ex:11999999999" />
+        <Button
+            Grid.Row="2"
+            Margin="25,20,25,20"
+            Clicked="OpenWhatsapp"
+            Text="Abrir whatsapp" />
+    </Grid>
+
+</ContentPage>
